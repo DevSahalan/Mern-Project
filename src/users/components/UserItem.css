@@ -7,19 +7,21 @@
   list-style-type: none;
 }
 
-.user-item a {
+.flex {
   display: flex;
   align-items: center;
   width: 100%;
   height: 100%;
-  text-decoration: none;
   padding: 1rem;
   color: white;
   background: #292929;
 }
+.user-item a {
+  text-decoration: none;
+}
 
-.user-item a:hover,
-.user-item a:active {
+.flex:hover,
+.flex:active {
   background: #ffd900;
 }
 
